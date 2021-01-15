@@ -15,4 +15,5 @@ body {
 .face {
     font-size: 10rem;
     cursor: pointer;
+    user-select: none;
 }
