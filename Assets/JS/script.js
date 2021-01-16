@@ -3,7 +3,7 @@ const hearFace = document.querySelector(".hear")
 const speakFace = document.querySelector(".speak")
 
 seeFace.addEventListener("click", () => {
-    if(seeFace.classList.contains("see")) {
-        hearFace.classList.add("active")
+    if(hearFace.classList.contains("hear")) {
+        hearFace.classList.add("active");
     }
 })
