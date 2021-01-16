@@ -1,0 +1,1 @@
+const seeFace = document.querySelector(".see")
