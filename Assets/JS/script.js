@@ -4,6 +4,6 @@ const speakFace = document.querySelector(".speak")
 
 seeFace.addEventListener("click", () => {
     if(seeFace.classList.contains("see")) {
-        
+        hearFace.classList.add("active")
     }
 })
