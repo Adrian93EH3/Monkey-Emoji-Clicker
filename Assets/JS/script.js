@@ -8,3 +8,7 @@ seeFace.addEventListener("click", () => {
         seeFace.classList.remove("active");
     }
 })
+
+hearFace.addEventListener("click", () => {
+    
+})
