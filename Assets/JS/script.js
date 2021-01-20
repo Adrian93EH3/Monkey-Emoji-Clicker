@@ -10,5 +10,7 @@ seeFace.addEventListener("click", () => {
 })
 
 hearFace.addEventListener("click", () => {
-    
+    if(hearFace.classList.contains("active")) {
+        
+    }
 })
