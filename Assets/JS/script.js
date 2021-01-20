@@ -12,5 +12,6 @@ seeFace.addEventListener("click", () => {
 hearFace.addEventListener("click", () => {
     if(hearFace.classList.contains("active")) {
         speakFace.classList.add("active");
+        hearFace.classList.remove("active");
     }
 })
