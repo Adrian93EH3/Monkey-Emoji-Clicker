@@ -15,3 +15,7 @@ hearFace.addEventListener("click", () => {
         hearFace.classList.remove("active");
     }
 })
+
+speakFace.addEventListener("click", () => {
+    
+})
