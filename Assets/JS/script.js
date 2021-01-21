@@ -18,6 +18,6 @@ hearFace.addEventListener("click", () => {
 
 speakFace.addEventListener("click", () => {
     if(speakFace.classList.contains("active")) {
-        
+        hearFace.classList.add("active");
     }
 })
